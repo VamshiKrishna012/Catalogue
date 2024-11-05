@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    // "version": "0.2.0",
+    // "configurations": [
+    //     {
+    //         "type": "java",
+    //         "name": "Current File",
+    //         "request": "launch",
+    //         "mainClass": "${file}",
+    //         "classpath": ["${workspaceFolder}/libs/json-20210307.jar"]
+    //     },
+    //     {
+    //         "type": "java",
+    //         "name": "ShamirSecretSharing",
+    //         "request": "launch",
+    //         "mainClass": "ShamirSecretSharing",
+    //         "projectName": "Catalogue_Assesment_eef37d1e"
+    //     }
+    // ]
+
+    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "ShamirSecretSharing", // Replace with your actual main class
+            "vmArgs": "-cp ${Catalogue_Assesment}\\libs\\json-20210307.jar;${Catalogue_Assesment}\\bin"
+        }
+    ]
+
+    
+}
